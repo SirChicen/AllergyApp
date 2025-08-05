@@ -1,0 +1,60 @@
+name: allergy_app
+description: "A Flutter app that helps users with food allergies safely navigate restaurant menus using OCR and AI analysis."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core dependencies
+  cupertino_icons: ^1.0.6
+  
+  # Camera and Image Processing
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  image: ^4.1.7
+  
+  # Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  
+  # HTTP and API calls
+  http: ^1.2.0
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # OCR and ML
+  google_mlkit_text_recognition: ^0.10.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # JSON
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  
+  # Assets
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # Fonts (can be added later)
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
