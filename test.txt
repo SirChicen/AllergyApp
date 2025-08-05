@@ -1,0 +1,5 @@
+This is a test file to verify GitHub connection.
+Created on: 2025-08-05
+Project: AllergyApp
+
+This file can be deleted after confirming the repository connection works properly.
